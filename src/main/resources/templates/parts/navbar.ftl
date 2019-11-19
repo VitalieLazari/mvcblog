@@ -13,9 +13,15 @@
             <li class="nav-item">
                 <a class="nav-link" href="/">Home</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="/main">Posts</a>
-            </li>
+            <#if name !="unknown">
+                <li class="nav-item">
+                    <a class="nav-link" href="/main">Posts</a>
+                </li>
+            <#else>
+                <li class="nav-item">
+                    <a class="nav-link" href="/login">Login</a>
+                </li>
+            </#if>
             <#if isAdmin>
                 <li class="nav-item">
                     <a class="nav-link" href="/user">Users</a>
