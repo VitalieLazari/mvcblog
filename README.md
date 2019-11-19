@@ -109,3 +109,5 @@ sudo nginx -s reload
 
 ##Now we can access blog from computers which are in the same LAN 
 ##by entering ip address of our server in web-browsers address bar. 
+##User: admin
+##Passwprd: Pass4admin
