@@ -19,7 +19,7 @@ bash --login
 
 ##2. 
 ssh-keygen                              
-## agree with all
+##agree with all
 
 ##3. 
 cat ~/.ssh/id_rsa.pub
@@ -97,7 +97,7 @@ location / {
         proxy_set_header X-Real-IP $remote_addr;
         proxy_pass http://localhost:8080;
 }
-## save and run command
+##save and run command
 sudo nginx -s reload
 ##
 ##
@@ -108,6 +108,6 @@ sudo nginx -s reload
 ./scripts/deploy.sh
 
 ##Now we can access blog from computers which are in the same LAN 
-##by entering ip address of our server in web-browsers address bar. 
+##by entering ip address of our server in web-browsers address bar.
 ##User: admin
 ##Passwprd: Pass4admin
